@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manipulando o DOM</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Interagindo com JavaScript!</h1>
+    
+    <input type="text" id="inputTexto" placeholder="Digite o novo texto...">
+    <p id="texto">Este texto será modificado.</p>
+
+    <div class="botoes-principais">
+        <button id="btnTrocarTexto">Trocar Texto</button>
+        
+        <input type="color" id="seletorCorTexto" value="#ff0000">
+        <button id="btnMudarCor">Mudar Cor Texto</button>
+        
+        <button id="btnToggle">Esconder/Mostrar</button>
+        
+        <input type="color" id="seletorCorFundo" value="#ffffff">
+        <button id="btnMudarFundo">Mudar Fundo</button>
+    </div>
+
+    <hr style="margin: 30px auto; width: 60%;">
+    
+    <button id="btnAdicionar">Adicionar Elemento</button>
+
+    <div id="container"></div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

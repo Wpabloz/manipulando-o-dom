@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  transition: background-color 0.3s;
+}
+
+p {
+  font-size: 18px;
+  color: black;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.oculto {
+  display: none;
+}
+
+/* Estilo para os itens que serão criados dinamicamente */
+.item-lista {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: fit-content;
+    min-width: 200px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
